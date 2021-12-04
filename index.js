@@ -74,6 +74,18 @@ numbernye = '0'
 waktu = '-'
 alasan = '-'
 
+xchillds = 'XChillDs'
+HunterApi = 'Ikyy69'
+XteamKey = 'MIMINETBOT'
+apikey = 'RizkyxNaqib'
+DapApi = 'dappauhuy'
+spykey = 'SpyBotApi'
+indoapi = 'Fxc7'
+botxyz = 'Aprii'
+rakukey = 'RakuKeyTod'
+apisenku = 'SenkuApi'
+valkey = 'rivalgans'
+
 hit_today = []
 //
 const getCmd = (id) => {
@@ -177,7 +189,7 @@ const floc = {
                         },
        message: {
                     liveLocationMessage: {
-                    caption: `${ucapanWaktu}`,
+                    caption: `${ucapanWaktu}\n${date}`,
                     jpegThumbnail: fs.readFileSync('./stik/thumb.jpeg')
                           }
                         }
@@ -190,11 +202,11 @@ const fgi = {
                 },
 	 message: { 
                  "videoMessage": { 
-                 "title": `${ucapanWaktu}`,
-                 "h": `${ucapanWaktu}`,
+                 "title": `${ucapanWaktu}\n${date}`,
+                 "h": `${ucapanWaktu}\n${date}`,
                  'duration': '99999', 
                  'gifPlayback': 'true', 
-                 'caption': `${ucapanWaktu}`,
+                 'caption': `${ucapanWaktu}\n${date}`,
                  'jpegThumbnail': fs.readFileSync('./stik/thumb.jpeg')
                         }
                        }
@@ -602,106 +614,104 @@ hexa.sendMessage(from, { contentText: `${menuh}`, footerText: `
 break
 case 'allmenu':
 if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: floc})
-hexa.sendMessage(from, {"contentText": `Hai Kak *${pushname}* ${ucapanWaktu}
+hexa.sendMessage(from, {"contentText": `
+Hai Kak *${pushname}* ${ucapanWaktu}
+「 𝐎𝐖𝐍𝐄𝐑 」
+    _*${prefix}off*_
+    _*${prefix}on*_
+    _*${prefix}status*_
 
+「 𝐌𝐀𝐊𝐄𝐑 」
+    _*${prefix}sticker*_
+    _*${prefix}swm*_ <author|packname>
+    _*${prefix}take*_ <author|packname>
+    _*${prefix}fdeface*_
+    _*${prefix}emoji*_
+    _*${prefix}nulis*_
+
+「 𝐂𝐎𝐍𝐕𝐄𝐑𝐓 」
+    _*${prefix}toimg*_
+    _*${prefix}tomp3*_
+    _*${prefix}tomp4*_
+    _*${prefix}slow*_
+    _*${prefix}fast*_
+    _*${prefix}reverse*_
+    _*${prefix}tourl*_
+
+「 𝐔𝐏 𝐒𝐓𝐎𝐑𝐘 」
+    _*${prefix}upswteks*_
+    _*${prefix}upswimage*_
+    _*${prefix}upswvideo*_
+
+「 𝐅𝐔𝐍 」
+    _*${prefix}fitnah*_
+    _*${prefix}fitnahpc*_
+    _*${prefix}kontak*_
+
+「 𝐓𝐀𝐆 」
+    _*${prefix}hidetag*_
+    _*${prefix}kontag*_
+    _*${prefix}sticktag*_
+    _*${prefix}totag*_
+
+「 𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃 」
+    _*${prefix}ytsearch*_ <query>
+    _*${prefix}igstalk*_ <query>
+    _*${prefix}play*_ <query>
+    _*${prefix}video*_ <query>
+    _*${prefix}ytmp3*_ <link>
+    _*${prefix}ytmp4*_ <link>
+    _*${prefix}ig*_ <link>
+    _*${prefix}igstory*_ <username>
+    _*${prefix}twitter*_ <link>
+    _*${prefix}tiktok*_ <link>
+    _*${prefix}tiktokaudio*_ <link>
+    _*${prefix}fb*_ <link>
+    _*${prefix}brainly*_ <query>
+    _*${prefix}image*_ <query>
+    _*${prefix}anime*_ <random>
+    _*${prefix}pinterest*_ <query>
+    _*${prefix}komiku*_ <query>
+    _*${prefix}lirik*_ <query>
+    _*${prefix}chara*_ <query>
+    _*${prefix}playstore*_ <query>
+    _*${prefix}otaku*_ <query>
+
+「 𝐎𝐓𝐇𝐄𝐑 」
+    _*${prefix}self*_
+    _*${prefix}public*_
+    _*${prefix}setthumb*_
+    _*${prefix}settarget*_
+    _*${prefix}setfakeimg*_
+    _*${prefix}setreply*_
+    _*${prefix}ping*_
+    _*${prefix}inspect*_
+    _*${prefix}join*_
+    _*${prefix}caripesan*_ <query>
+    _*${prefix}get*_
+    _*${prefix}term*_ <code>
+    _*x*_ <code>
+
+「 𝐉𝐀𝐃𝐈𝐁𝐎𝐓 」
+    _*${prefix}jadibot*_
+    _*${prefix}stopjadibot*_
+    _*${prefix}listbot*_
+
+「 𝐕𝐎𝐓𝐄 」
+    _*${prefix}voting*_
+    _*${prefix}delvote*_
+    _*vote*_
+    _*devote*_
+`,"footerText": `
 *──────" 𝕭𝖔𝖙 𝕴𝖓𝖋𝖔 "──────*
  👤OWNER : *https://wa.me/6287705048235*
  💌EMAIL : *tesheroku123@gmail.com*
  🔎YT : *https://bit.ly/3BpBe1Z*
  🪀GROUP : *https://bit.ly/3Ene2TO*
 
+Anggota : *${_registered.length} User KirBotz×*
 Runtime : *${runtime(process.uptime())}*
-Tanggal *${date}*
-
-メLord Akira⁴̅⁰͍⁴̵
-`,"footerText": `
-*</OWNER>*
-► _${prefix}off_
-► _${prefix}on_
-► _${prefix}status_
-
-*</MAKER>*
-► _${prefix}sticker_
-► _${prefix}swm_ <author|packname>
-► _${prefix}take_ <author|packname>
-► _${prefix}fdeface_
-► _${prefix}emoji_
-
-*</CONVERT>*
-► _${prefix}toimg_
-► _${prefix}tomp3_
-► _${prefix}tomp4_
-► _${prefix}slow_
-► _${prefix}fast_
-► _${prefix}reverse_
-► _${prefix}tourl_
-
-*</UP STORY>*
-► _${prefix}upswteks_
-► _${prefix}upswimage_
-► _${prefix}upswvideo_
-
-*</FUN>*
-► _${prefix}fitnah_
-► _${prefix}fitnahpc_
-► _${prefix}kontak_
-
-*</TAG>*
-► _${prefix}hidetag_
-► _${prefix}kontag_
-► _${prefix}sticktag_
-► _${prefix}totag_
-
-*</DOWNLOAD>*
-► _${prefix}ytsearch_ <query>
-► _${prefix}igstalk_ <query>
-► _${prefix}play_ <query>
-► _${prefix}video_ <query>
-► _${prefix}ytmp3_ <link>
-► _${prefix}ytmp4_ <link>
-► _${prefix}ig_ <link>
-► _${prefix}igstory_ <username>
-► _${prefix}twitter_ <link>
-► _${prefix}tiktok_ <link>
-► _${prefix}tiktokaudio_ <link>
-► _${prefix}fb_ <link>
-► _${prefix}brainly_ <query>
-► _${prefix}image_ <query>
-► _${prefix}anime_ <random>
-► _${prefix}pinterest_ <query>
-► _${prefix}komiku_ <query>
-► _${prefix}lirik_ <query>
-► _${prefix}chara_ <query>
-► _${prefix}playstore_ <query>
-► _${prefix}otaku_ <query>
-
-*</OTHER>*
-► _${prefix}self_
-► _${prefix}public_
-► _${prefix}setthumb_
-► _${prefix}settarget_
-► _${prefix}setfakeimg_
-► _${prefix}setreply_
-► _${prefix}ping_
-► _${prefix}inspect_
-► _${prefix}join_
-► _${prefix}caripesan_ <query>
-► _${prefix}get_
-► _${prefix}term_ <code>
-► _x_ <code>
-
-*</JADI BOT>*
-► _${prefix}jadibot_
-► _${prefix}stopjadibot_
-► _${prefix}listbot_
-
-*</VOTE>*
-► _${prefix}voting_
-► _${prefix}delvote_
-► _vote_
-► _devote_
-
-*ꪶ ཻུ۪۪ꦽꦼ̷⸙𝕶𝖎𝖗𝕭𝖔𝖙𝖟ꪶ ཻུ۪۪ꦽꦼ̷⸙ || ${date}*`,
+Tanggal *${date}*`,
 "buttons": [
 {buttonId: `.owner`, buttonText: {displayText: '👑 𝕆𝕎ℕ𝔼ℝ 👑‍️'}, type: 1},
 {buttonId: `.sc`, buttonText: {displayText: '📄 𝕊ℂℝ𝕀ℙ𝕋 📄'}, type: 1}],
@@ -718,7 +728,7 @@ Tanggal *${date}*
             "directPath": "/v/t62.7119-24/35160407_568282564396101_3119299043264875885_n.enc?ccb=11-4&oh=d43befa9a76b69d757877c3d430a0752&oe=61915CEC",
             "mediaKeyTimestamp": "1634472176",
             "jpegThumbnail": fs.readFileSync('./stik/thumb.jpeg')
-  }}, MessageType.buttonsMessage,{ quoted: mek,thumbnail: fs.readFileSync('./stik/thumb.jpeg'), contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: `${ucapanWaktu}`,body:`${pushname}`,mediaType:"2",thumbnail:fs.readFileSync('./stik/thumb.jpeg'),mediaUrl:`https://youtube.com/channel/UC7NslQroUqQYzo2wDFBOUMg`}}})
+  }}, MessageType.buttonsMessage,{ quoted: fgi,thumbnail: fs.readFileSync('./stik/thumb.jpeg'), contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: `${ucapanWaktu}`,body:`${pushname}`,mediaType:"2",thumbnail:fs.readFileSync('./stik/thumb.jpeg'),mediaUrl:`https://youtube.com/channel/UC7NslQroUqQYzo2wDFBOUMg`}}})
   break
 case 'verify':
 if (isRegistered) return reply('```Lu Dah Verify Ngentod```')
@@ -779,6 +789,86 @@ button = [
     headerType: 1
 }
 await hexa.sendMessage(from, buttons, MessageType.buttonsMessage, {quoted: floc})
+break
+case 'nulis':
+case 'tulis':
+               if (args.length < 1) return reply('Yang mau di tulis apaan?')
+               teks = args.join(' ')
+               reply('*Waittt....*')
+               nulis = encodeURIComponent(teks)
+               res = await axios.get(`https://dt-04.herokuapp.com/nulis?text=${nulis}`)
+               if (res.data.error) return reply(res.data.error)
+               buff = Buffer.from(res.data.result.split(',')[1], 'base64')
+               hexa.sendMessage(from, buff, image, {quoted: mek, caption: mess.success}).catch(e => {
+               return reply('_[ ! ] Error Gagal Dalam Mendownload Dan Mengirim File_')
+})
+               break
+case 'faktaunik':
+case 'katabijak':
+case 'pantun':
+case 'bucin':
+                    get_result = await fetchJson(`https://api.lolhuman.xyz/api/random/${command}?apikey=KurrXd`)
+                   titid = get_result.result
+                   sendButMessage(from, titid, `Klik Untuk Ke Quotes Selanjutnya`, [
+          {
+            buttonId: `${prefix + command}`,
+            buttonText: {
+              displayText: `➡️ NEXT`,
+            },
+            type: 1,
+          },]);
+        break
+case 'randomnama':
+                    anu = await fetchJson(`https://api.lolhuman.xyz/api/random/nama?apikey=KurrXd`)
+                    dasi = anu.result
+                   sendButMessage(from, dasi, `Klik Untuk Ke Quotes Selanjutnya`, [
+          {
+            buttonId: `${prefix + command}`,
+            buttonText: {
+              displayText: `➡️ NEXT `,
+            },
+            type: 1,
+          },]);
+        break
+case 'quotes':
+                    anjy = await fetchJson(`https://spybot-api.herokuapp.com/api/randomquote?apikey=${spykey}`)
+                   titid = `${anjy.result.quotes}`
+                   sendButMessage(from, titid, `Klik Untuk Ke Quotes Selanjutnya`, [
+          {
+            buttonId: `${prefix + command}`,
+            buttonText: {
+              displayText: `➡️ NEXT`,
+            },
+            type: 1,
+          },]);
+        break
+case 'quotesimage':
+                    get_result = await getBuffer(`https://api.lolhuman.xyz/api/random/${command}?apikey=KurrXd`)
+                    await hexa.sendMessage(from, get_result, image)
+                    break
+case 'meme':
+ano = await fetchJson(`https://spybot-api.herokuapp.com/api/random/meme?apikey=${spykey}`)
+inibaf = await getBuffer(`${ano.result.url}`, {method: 'get'})
+inicapt = `${ano.result.title}`
+trrans = `KirTod`
+but = [{ buttonId: `${prefix}meme`, buttonText: { displayText: '🔖 Next' }, type: 1 }]
+        sendButImage(from, inicapt, trrans, inibaf, but)
+break
+case 'neko':
+amnnuu = await fetchJson(`https://spybot-api.herokuapp.com/api/nsfw/nsfwNeko?apikey=${spykey}`)
+buff = await getBuffer(`${amnnuu.result}`, {method: 'get'})
+tekkss = `Siapkan Sabun:v`
+ttrans = `KirTod`
+but = [{ buttonId: `${prefix}neko`, buttonText: { displayText: '🔖 Next' }, type: 1 }]
+        sendButImage(from, tekkss, ttrans, buff, but)
+break
+case 'wallpaper':
+anoh = await fetchJson(`https://spybot-api.herokuapp.com/api/random/wallpaper?apikey=${spykey}`)
+nahbaff = await getBuffer(`${anoh.result.url}`, {method: 'get'})
+teksss = `Ini Bang Jan Lupa Subrek  KirBotz×`
+trans = `KirTod`
+but = [{ buttonId: `${prefix}wallpaper`, buttonText: { displayText: '🔖 Next' }, type: 1 }]
+        sendButImage(from, teksss, trans, nahbaff, but)
 break
 case 'bc':
              if (!isOwner && !mek.key.fromMe) return  reply('Khusus Owner')
@@ -1018,7 +1108,7 @@ if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted
             break       
 case 'status':
 if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: floc})
-            fakestatus(`*STATUS*\n${offline ? '> OFFLINE' : '> ONLINE'}\n${banChats ? '> SELF-MODE' : '> PUBLIC-MODE'}`)
+            reply(`*STATUS*\n${offline ? '× OFFLINE' : '× ONLINE'}\n${banChats ? '× SELF-MODE' : '× PUBLIC-MODE'}`)
             break
 case 'off':
 if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: floc})
@@ -1504,7 +1594,7 @@ _Silahkan tunggu file media sedang dikirim mungkin butuh beberapa menit_`
               reply(`eror`)
 }
               break 
-case 'ytsearch':
+case 'play':
 if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: floc})
              if (args.length < 1) return reply(`Kirim perintah *${prefix}play query`)
              reply(mess.wait)
@@ -1547,34 +1637,6 @@ if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted
              reply('```[ ! ] Error Saat Mengirim Video```')})
              sendMediaURL(from, `${res.dl_link}`,'Nih Kack')
              break
-case 'play':
-if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: floc})
-            if (args.length == 0) return reply(`Example: ${prefix + command} vide 1detik`)
-            query = args.join(" ")
-            get_resultL = await fetchJson(`https://ziy.herokuapp.com/api/play?apikey=xZiyy&judul=${query}`)
-            get_resultP = get_resultL.result
-            textP =`
-*YOUTUBE PLAY*
-
-Judul : ${get_resultP.judul}
-Link : ${get_resultP.url_audio}
-            `
-            hexa.sendMessage(from, textP, text,{contextInfo:{
-            "forwardingScore": 1000000000,
-            isForwarded: false,
-            sendEphemeral: false,
-            "externalAdReply": {
-            "title": `Hallo ${pushname}` ,
-            "body": `Nih ${query} nya`,
-            "mediaType": "2",
-            "thumbnailUrl": `${get_resultP.image_thumbnail}`,
-            "mediaUrl": "https://youtu.be/8S-AdzinXAI",
-            "thumbnail": fs.readFileSync("./location.jpeg"),
-            "sourceUrl": "http://ziy.herokuapp.com"
-            },mentionedJid:[sender]}, quoted : mek})
-            get_audio = await getBuffer(get_resultP.url_audio)
-            hexa.sendMessage(from, get_audio, audio, { mimetype: Mimetype.mp4Audio, filename: `${get_resultP.title}.mp3`, quoted: mek})
-            break
 case 'sticker': 
 case 'stiker':
 case 'sg':
@@ -1764,11 +1826,10 @@ if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted
             hexa.sendMessage(from,{url:images},image,{quoted:mek})
             });
             break
-case 'tiktok':
-if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: floc})
+case 'tiktokdl':
  		if (!isUrl(args[0]) && !args[0].includes('tiktok.com')) return reply(mess.Iv)
- 		if (!q) return fakegroup('Linknya?')
- 		reply(mess.wait)
+ 		if (!q) return reply('Linknya?')
+ 		reply('Waitt..')
 		hx.ttdownloader(`${args[0]}`)
     		.then(result => {
     		const { wm, nowm, audio } = result
@@ -1870,7 +1931,7 @@ case 'test':
 if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: floc})
             run = process.uptime() 
             teks = `${kyun(run)}`
-            fakegroup(teks)
+            reply(teks)
             break  
 case 'speed':
 case 'ping':
