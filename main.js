@@ -39,9 +39,19 @@ const starts = async (hexa = new WAConnection()) => {
         success('2', '[ 𝙎𝙐𝙆𝙎𝙀𝙎 ] [■■■■■■■■■■■■■■■]')
         setTimeout( () => {
         	console.log(color(`🌹Welcome To KirBotz`, 'red'))
-            console.log(color(`🌹Script Ini Di Susun Akira`, 'yellow'))
-            console.log(color(`🌹Akira Mastah PokokNya?`, 'green'))
-	    	console.log(color(`🌹Created By Akira`, 'blue'))
+	    	console.log(color('━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n𝐍𝐞𝐰 𝐁𝐚𝐬𝐞 𝐊𝐢𝐫𝐁𝐨𝐭𝐳\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━','white'))
+
+	        console.log(color('𝐍𝐨𝐭𝐞 :'), color('\n𝗝𝗮𝗻𝗴𝗮𝗻 𝗟𝘂𝗽𝗮 𝗦𝘂𝗯𝘀𝗰𝗿𝗶𝗯𝗲 𝗞𝗶𝗿𝗕𝗼𝘁𝘇\n𝗚𝗮𝗸 𝗦𝘂𝗯𝘀𝗰𝗿𝗶𝗯𝗲 𝗚𝗮𝗸 𝗪𝗼𝗿𝗸 :)\n𝗝𝗮𝗻𝗴𝗮𝗻 𝗛𝗮𝗽𝘂𝘀 𝗡𝗮𝗺𝗮 𝗚𝘄 𝗕𝗮𝗻𝗴\n𝗛𝗮𝗿𝗴𝗮𝗶 𝗡𝗮𝗽𝗮︎', 'aqua'))
+
+	        console.log(color('━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━','yellow'))
+
+            console.log(color('𝐏𝐞𝐬𝐚𝐧 𝐊𝐢𝐫𝐁𝐨𝐭𝐳 :'), color('\n𝗕𝘂𝗮𝘁 𝗞𝗮𝗹𝗶𝗮𝗻 𝗬𝗮𝗻𝗴 𝗠𝗮𝗸𝗲𝗸 𝗦𝗰 𝗚𝘄\n𝗧𝗼𝗹𝗼𝗻𝗴 𝗟𝗮𝗵 𝗝𝗮𝗻𝗴𝗮𝗻 𝗗𝗶 𝗝𝘂𝗮𝗹 𝗨𝗹𝗮𝗻𝗴\n𝗟𝘂𝗵 𝗝𝘂𝗮𝗹 𝗨𝗹𝗮𝗻𝗴 𝗛𝗮𝘁𝗶² 𝗟𝘂𝗵 𝗕𝗮𝗻𝗴\n𝗬𝗮𝗻𝗴 𝗞𝗲 𝗘𝗻𝗰 𝗕𝗶𝗹𝗲𝗸 :\n𝗦𝗰 𝗗𝗶 𝗘𝗻𝗰 𝗠𝗮𝗻𝗮 𝗕𝗶𝘀𝗮 𝗗𝗶 𝗝𝘂𝗮𝗹 𝗕𝗮𝗻𝗴 🗿', 'aqua'))
+
+            console.log(color('━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━','magenta'))
+
+            console.log(color('𝐏𝐞𝐬𝐚𝐧 𝐁𝐨𝐭𝐳 :'), color('\n𝗦𝗶𝗹𝗮𝗸𝗮𝗻 𝗞𝗲𝘁𝗶𝗸 .𝗽𝘂𝗯𝗹𝗶𝗰 𝗗𝗶 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽 𝗕𝗼𝘁 𝗗𝗮𝗻 𝗡𝗶𝗸𝗺𝗮𝘁𝗶 𝗙𝗶𝘁𝘂𝗿𝗻𝘆𝗮', 'aqua'))
+
+            console.log(color('━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━','red'))
 	    	}, 1000)    		    	     	
     })
     await hexa.connect({timeoutMs: 30*1000})
